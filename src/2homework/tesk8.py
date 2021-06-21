@@ -68,12 +68,10 @@ def fun(col, queens):
         if c in (left, col, right):
             return True
     return False
-
 # 5 задание
 a=(input("Год"))
-
-    if year % 4 == 0 and a % 100 != 0 or a % 400 == 0:
-        print(True)
+if a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
+    print(True)
         
-    else:
-        print(False)
+else:
+    print(False)

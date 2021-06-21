@@ -64,7 +64,6 @@ print(c, "целочисленного деления", d , "деления с �
 # 5 задние
 def under_attack(col, queens):
     left = right = col
-
     for r, c in reversed(queens):
         left, right = left - 1, right + 1
 

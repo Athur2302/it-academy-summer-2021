@@ -61,7 +61,7 @@ if __name__ == '__main__':
 print(c, "целочисленного деления", d , "деления с плавающей запятой")
 
 # 4 задние
-def under_attack(col, queens):
+def fun(col, queens):
     left = right = col
     for r, c in reversed(queens):
         left, right = left - 1, right + 1
@@ -70,8 +70,8 @@ def under_attack(col, queens):
     return False
 
 # 5 задание
-year = (input("Год"))
-if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+a= (input("Год"))
+if year % 4 == 0 and a % 100 != 0 or a % 400 == 0:
     print(True)
 else:
     print(False)

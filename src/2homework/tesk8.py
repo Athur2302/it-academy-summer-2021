@@ -48,11 +48,11 @@ def split_and_join(line):
     lin = "-".join(a)
     return (lin)
 
-# 4 задане 
 if __name__ == '__main__':
     line = input()
     result = split_and_join(line)
     print(result)
+    
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     d = a / b
 print(c, "целочисленного деления", d , "деления с плавающей запятой")
 
-# 5 задние
+# 4 задние
 def under_attack(col, queens):
     left = right = col
     for r, c in reversed(queens):
@@ -68,3 +68,10 @@ def under_attack(col, queens):
         if c in (left, col, right):
             return True
     return False
+
+# 5 задание
+year = (input("Год"))
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    print(True)
+else:
+    print(False)

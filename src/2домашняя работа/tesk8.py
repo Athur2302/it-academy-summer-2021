@@ -61,6 +61,8 @@ if __name__ == '__main__':
 print(c, "целочисленного деления", d , "деления с плавающей запятой")
 
 # 4 задние
+
+
 def fun(col, queens):
     left = right = col
     for r, c in reversed(queens):

@@ -26,12 +26,13 @@ if __name__ == '__main__':
     d = a - b 
     q = a * b
 
-print (c , "сумму двух чисел")
-print (d , "разница двух чисел")
-print (q , "произведение двух чисел")
+print(c ,"сумму двух чисел")
+print(d ,"разница двух чисел")
+print (q ,"произведение двух чисел")
 
 # 3 задание
-def split_and_join (line):
+
+def split_and_join(line):
     a = line.split()
     lin = "-".join(a)
     return (lin)

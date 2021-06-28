@@ -22,8 +22,8 @@ for i in range(thickness):
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
-    c = a + b 
-    d = a - b 
+    c = a + b
+    d = a - b
     q = a * b
 
 print(c, "сумму двух чисел")

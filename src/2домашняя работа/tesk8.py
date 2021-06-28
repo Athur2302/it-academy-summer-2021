@@ -23,14 +23,6 @@ for i in range(thickness):
     print(((c*(thickness-i-1)).rjust  (thickness)+c+(c*(thickness-i-1)).ljust  (thickness)).rjust  (thickness*6))
 
 # 2 задание
-# Пример
-# 3
-# 5
-# Выведите следующее:
-# 8 
-# -2 
-# 15
-
 if __name__ == '__main__':
     a = int(input())
     b = int(input())

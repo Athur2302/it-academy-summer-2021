@@ -32,6 +32,7 @@ print (q, "произведение двух чисел")
 
 # 3 задание
 
+
 def split_and_join(line):
     a = line.split()
     lin = "-".join(a)

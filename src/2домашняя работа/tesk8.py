@@ -4,7 +4,7 @@ c = 'H'
 width = 20
 
 for i in range(thickness):
-    print(( c*i ).rjust ( thickness-1 )+c+( c*i ).ljust ( thickness-1 ))
+    print((c*i ).rjust ( thickness-1 )+c+( c*i ).ljust ( thickness-1 ))
     
 for i in range(thickness+1):
     print(( c*thickness ).center ( thickness*2 )+( c*thickness ).center  ( thickness*6 ))
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     b = int(input())
     c = a // b
     d = a / b
-print(c , "целочисленного деления" , d , "деления с плавающей запятой")
+print(c, "целочисленного деления", d, "деления с плавающей запятой")
 
 # 4 задние
 

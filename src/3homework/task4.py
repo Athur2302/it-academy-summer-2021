@@ -12,6 +12,6 @@ count = 0
 for num in range(len(lis)):
     for pair in range(int(num) + 1, len(lis)):
         if lis[num] == lis[pair]:
-            
+   
             count += 1
 print("пары:", str(count))

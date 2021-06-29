@@ -1,5 +1,5 @@
 # Используйте генератор списков чтобы получить следующий:
-#['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
+# ['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
 str_ = "bcd"
 dano_list = []
 for i in str_:
@@ -9,12 +9,12 @@ for i in str_:
 print(dano_list)
 
 # Используйте на предыдущий список slice чтобы получить следующий:
-#['ab', 'ad', 'bc'].
+# ['ab', 'ad', 'bc'].
 dano_list_1 = dano_list[::2]
 print(dano_list_1)
 
 # Используйте генератор списков чтобы получить следующий:
-#['1a', '2a', '3a', '4a']
+# ['1a', '2a', '3a', '4a']
 dano_list_2 = []
 for i in range(1, 5):
     dano_list_2.append(str(i) + "a")

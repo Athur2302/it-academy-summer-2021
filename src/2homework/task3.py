@@ -1,4 +1,4 @@
-a = (input("Введите строку: "))
+a = list(input("Введите строку: "))
 b = []
 for i in a:
     if i not in b:

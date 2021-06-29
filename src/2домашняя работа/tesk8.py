@@ -15,7 +15,7 @@ for i in range((thickness + 1) // 2):
 
 for i in range(thickness + 1):
     print((c * thickness).center(thickness * 2) + \n
-          (c*thickness).center(thickness * 6))
+          (c * thickness).center(thickness * 6))
 
 for i in range(thickness):
     print(((c * (thickness-i - 1)).rjust(thickness) + c + \n

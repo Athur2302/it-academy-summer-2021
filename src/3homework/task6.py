@@ -6,6 +6,6 @@
 
 list_num  = [134, 22, 3, 544, 4, 125, 6, 7, 8, 98]
 for i in reversed(range(len(list_num))):
-    if list_num[i] == 0:
+    if list_num [i] == 0:
         list_num.append(list_num.pop(i))
 print(list_num)

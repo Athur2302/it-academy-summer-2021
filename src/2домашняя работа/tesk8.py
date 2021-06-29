@@ -1,19 +1,11 @@
 # 1 задание
-thickness = int(input())
-c = 'H'
-width = 20
+def is_acceptable_password(password: str) -> bool:
+    return len(password) > 6
 
-for i in range(thickness):
-    print((c * i).rjust(thickness - 1) + c + (c * i).ljust(thickness - 1))
 
-for i in range(thickness + 1):
-print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6))
-
-for i in range((thickness + 1) // 2):
-    print((c * thickness * 5).center(thickness * 6))
-
-for i in range(thickness + 1):
-print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6))
+if __name__ == '__main__':
+    print("Example:")
+    print(is_acceptable_password('short'))
 
 # 2 задание
 if __name__ == '__main__':

@@ -5,12 +5,13 @@
 # Входные данные - строка из чисел, разделенная пробелами.
 # Выходные данные - количество пар.
 # Важно: 1 1 1 - это 3 пары, 1 1 1 1 - это 6 пар
+
 num = input("Введите числа:")
 lis = num.split()
 count = 0
 for num in range(len(lis)):
     for pair in range(int(num) + 1, len(lis)):
         if lis[num] == lis[pair]:
-   
+
             count += 1
 print("пары:", str(count))

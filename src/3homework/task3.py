@@ -18,5 +18,5 @@ print(a, b, c)
 # Убедитесь что len() исходного кортежа возвращает 1.
 my_typle_1 = ([1, 2, 3],)
 for i in my_typle_1[0]:
-print(i)
+    print(i)
 print(len(my_typle_1))

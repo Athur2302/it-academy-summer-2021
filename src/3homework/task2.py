@@ -24,4 +24,5 @@ print(dano_list_2.pop(1))
 # списке этого элемента не было
 dano_list_3 = dano_list_2[:]
 dano_list_3.insert(1, "2a")
+
 print(dano_list_3)
